@@ -15,6 +15,35 @@ html {
   color: #0000ff;
   font-size: 1em;
   line-height: bold;
+
+  body {
+    background-color: #b3d4fc;
+    display: flex;
+    font-family: Georgia;
+    justify-content: center; /* mitten vänster–höger */
+    align-items: center;     /* mitten upp–ner */
+    height: 100vh;           /* hela skärmens höjd */
+    margin: 0;               /* tar bort vit kant */
+    flex-direction: column;  /* staplar allt under varandra */
+  }
+
+  h1 {
+    font-size: 60px;        /* gör rubriken större */
+    color: darkblue;        /* färg på texten */
+    text-align: center;     /* centrerar rubriken */
+    font-weight: bold;
+    margin-bottom: 20px;
+    background-color: white;
+    width: 100%;
+  }
+  p {
+    font-size: 20px;        /* gör rubriken större */
+    color: darkblue;        /* färg på texten */
+    text-align: center;     /* centrerar rubriken */
+    font-weight: bold;
+    margin-bottom: 20px;
+    background-color: white;
+  }
 }
 
 /*

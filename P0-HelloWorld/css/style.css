@@ -12,9 +12,9 @@
    ========================================================================== */
 
 html {
-  color: #4682B4;
+  color: #0000ff;
   font-size: 1em;
-  line-height: 1.4;
+  line-height: bold;
 }
 
 /*
@@ -25,7 +25,7 @@ html {
  */
 
 ::-moz-selection {
-  background: #b3d4fc;
+  background: #ff0000;
   text-shadow: none;
 }
 
